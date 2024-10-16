@@ -1,0 +1,12 @@
+fun main() {
+    helloworld()
+    println("A soma de 10 e 5 é ${sum(a = 10, b = 5)}")
+}
+
+fun sum (a: Int, b: Int): Int {
+    return(a+b)
+}
+
+fun helloworld(){
+    println("Hello, world")
+}
