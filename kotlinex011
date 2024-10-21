@@ -1,0 +1,24 @@
+
+fun bonus(cargo: String): Float {
+    var bonus: Float = 0f
+    if (cargo == "gerente") {
+        return 2000f
+    }
+    else if (cargo == "coordenador") {
+        return 1500f
+    }
+    else if (cargo == "engenheiro") {
+        return 1000f
+    }
+    else if (cargo == "estagiario") {
+        return 500f
+    }
+    return bonus
+}
+
+fun main() {
+    val bonusg = bonus("gerente")
+    val bonusc = bonus("coordenador")
+    val bonuse1 = bonus("engenheiro")
+    val bonuse2 = bonus("estagiario")
+}
